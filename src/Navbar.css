@@ -1,0 +1,61 @@
+body{
+    font-family: arial;
+    letter-spacing: 3px;
+    font-family: arial;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+.scoreboard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -25px;
+    height: 80px;
+    width: 100%;
+    background-color: #333;
+    color: #FAFAFA;
+    border-radius: 15px;
+        
+    text-transform: uppercase;
+}
+
+.left__side{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 60px;
+}
+
+.players{
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+}
+
+.highest__points{
+    display: flex;
+    flex-direction: row;
+}
+
+.right__side{
+    display: flex;
+    width: 30%;
+    font-size: 30px;
+}
+
+.text__fade{
+    color:#666;
+}
+
+.text__fade:hover{
+    cursor: zoom-in;
+    color:#FAFAFA;
+}
